@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # this is a Clojure-friendly emacs config
 
 If you're new to emacs, check out
@@ -26,3 +27,7 @@ Emacs has decent support for CSS, HTML, JS, and many other file types out of the
 * Adds support for YAML and SCSS using the yaml-mode and scss-mode packages
 
 In general, if you want to add support for a language then you should be able to find good instructions for it through Google. Most of the time, you'll just need to install the "x-lang-mode" package for it.
+=======
+# emacs-conf
+Personal Emacs Configuration
+>>>>>>> cdd201802889738f4c1e47f6c8cc25453b9c3684
