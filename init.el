@@ -97,9 +97,9 @@
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
 ;; Load settings for figwheel repl (for ClojureScript)
-(defun figwheel-repl ()
-  (interactive)
-  (run-clojure "lein trampoline run -m clojure.main script/repl.clj"))
+;; (defun figwheel-repl ()
+;;  (interactive)
+;;  (run-clojure "lein trampoline run -m clojure.main script/repl.clj"))
 
 ;;;;
 ;; Customization

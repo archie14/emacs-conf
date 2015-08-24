@@ -1,128 +1,128 @@
 ls
-find . -name js
-lein cljsbuild once
-ls -latrh
-find . -newer project.clj 
-find . -newer index.html
-lein help
-lein cljsbuild once
+lein ancient upgrade :all
+cd src
+ls
+cd reagent_svg1/
+ls
+cd Projects/Learning/ClojureScript/
+ls
+lein new figwheel reagent-svg1 -- --reagent
+cd reagent-svg1/
+ls
+lein ancient upgrade :all
+cd src/
+ls
+cd reagent_svg1/
+ls
+cd ..
+cd ..
+cd ..
+ls
+cd reagent-svg-demo/
 ls
 cd src/
 ls
-cd dimple_bar_chart/
-ls
-cp ~/Downloads/core.cljs .
-ls
-cd ..
-cd ..
-ls
-lein cljsbuild once
-ls out
-ls
-ls -latrh
-find . -name om.core*
-find . -name *cljs
-ls -latrh out/dimple_bar_chart/core.cljs
-find . -name *htm
-find . -name *html
-ls
-lein cljsbuild once
-lein cljsbuild once
-lein cljsbuild once
-lein cljsbuild once
-pwd
-cd Projects/Learning/
-ls
-cd ClojureScript/
-ls
-ls
-lein new chestnut local-state -- --om-tools --http-kit
-cd local-state/
-ls
-cd src
-ls
 cd cljs/
 ls
-cd local_state/
+cd svg/
 ls
-cp ~/Downloads/core\ \(1\).cljs core.cljs 
-cd Projects/
-ls
-cd om-svg2
-ls
-git push
-git push github +dev:master
-git push github +master
-git push github +head
-git push github HEAD:master
-git push github master --force
-git push github head --force
-pwd
-cd Projects/
-ls
-cd Learning/ClojureScript/
-lein new reagent reagent-test1
-cd reagent-test1/
-ls
-cat system.properties 
-ls
-cd src
-ls
-cd cljs/
-ls
-pwd
+cd ../../
 cd ..
-cd ..
-cd ..
-cd reagent-test1/
-lein figwheel
-cd Projects/
 ls
-cd Learning/
-ls
-cd ClojureScript/
-ls
-cd reagent-test1/
-ls
-ls
-less README.md 
-ls -latrh
 lein ancient upgrade :all
-lein ancient upgrade :all :no-tests
-lein ancient upgrade :all :no-tests
-lein ancient upgrade :all :no-tests
-lein ancient upgrade :all :no-tests
-lein ancient upgrade :all :no-tests :allow-qualified
-lein ancient upgrade :all :no-tests :allow-qualified
-cd src
+cd ..
+cd reagent-svg1/
+lein ancient upgrade :all
+cd resources/
 ls
-cd cljs
-ls -latrh
-mkdir components
-cd components/
+cd public/
 ls
-ls
-ls -la
-mv ~/Downloads/history.cljs .
-cd
-ls
-cd -
-cd
-cd -
-pwd
-cd ../..
+cd .
+cd ..
 cd ..
 ls
 ls -latrh
 tail -f figwheel_server.log 
+less figwheel_server.log 
+ls -latrh
+cd src
+ls -latrh
+cd reagent_svg1/
+ls
+ls -latrh
+cat core.cljs
+cd ..
+cd ..
+ls -latrh src/reagent_svg1/
+cd Projects/Learning/
+cd ClojureScript/reagent-svg1/
+ls
+cd src
+ls
+cd ..
+cd src/reagent_svg1/
+ls
+cd src
+ls
+cd cljs/
+ls -latrh
+cd om_svg/
+ls
+cd ..
+cd ..
+cd ..
+cd ..
+l
+ls
+rm -r om-svg
+cd om-svg/
+ls
+lein ancient upgrade :all :interactive :no-tests
+ls -latrh
+cd src/
+ls
+cd om_svg/
+ls
+cd ..
+ls -lathr
+cd ..
+cd ..
+ls -latrh
+cd reagent-svg1/
+ls -latrh
+cd src/
+ls
+cd reagent_svg1/
+cd
+cd -
 cd ..
 cd ..
 cd ..
 ls
-cd resources/
-s
+cd om-svg/
 ls
-cd public/
+ls -latrh
+cd src
+ls -latrh
+cd om_scg
+cd om_svg
+ls -latrh
+cd ..
+cd ..
+lein ancient upgrade
+pwd
+cd Projects/Learning/ClojureScript/om-svg/
 ls
-cd js
+cd src/
 ls
+cd om_svg/
+ls -latrh
+rm -r .git
+cd ..
+cd ..
+ls
+ls
+lein ancient upgrade :all
+lein ancient upgrade :all :allow-all
+lein ancient upgrade :all :allow-all :no-tests
+clear
