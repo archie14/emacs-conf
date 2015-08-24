@@ -2,4 +2,4 @@
 
 It is my personal config, for personal use. I you like it, please use it!
 
-Hapy coding!
+Happy coding!
